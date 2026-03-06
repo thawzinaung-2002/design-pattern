@@ -1,0 +1,21 @@
+# --- Compiled files ---
+*.class
+bin/
+# If you use a build tool like Maven or Gradle:
+target/
+build/
+
+# --- IDE specific files ---
+.classpath
+.project
+.settings/
+.idea/             # IntelliJ IDEA
+*.iml              # IntelliJ module files
+.vscode/           # Visual Studio Code
+
+# --- OS generated files ---
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+
+# --- Log files ---
+*.log

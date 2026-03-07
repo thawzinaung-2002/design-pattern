@@ -4,6 +4,7 @@
 
 # 1. Creational Design Patterns
  -  Singleton Pattern
+ -  Prototype Pattern
 
 ---
 
@@ -35,5 +36,22 @@ This implementation uses the `synchronized` keyword (or Double-Checked Locking) 
 ## ⚠️ Limitations (Cons)
 * **Unit Testing Challenges:** Since the state is "global," tests can interfere with each other (State Pollution). If Test A changes a setting, Test B may fail unexpectedly.
 * **State Management:** It is best practice to **avoid variables with frequent state changes** inside a Singleton to prevent side effects across the application.
+
+---
+
+## 📌 Prototype Pattern - Project Overview
+The **Prototype Pattern** ensures **to create new objects by copying an existing instance (the prototype) rather than using the new keyword**. A **Prototype Registry** (the Map in your code) is the management layer of the Prototype Pattern. While the clone() method handles the copying, the Registry handles the organization and retrieval.
+
+### Core Principles
+* **Shallow Copy**
+- Only the "top-level" object is new; internal objects (references) are shared.
+- The original and the clone are partially dependent. If you modify a shared internal object (like a List or a Date), the change appears in both.
+- super.clone() by default.
+
+
+* **Deep Copy**
+- The entire object tree is rebuilt from scratch.
+- The original and the clone are 100% independent. Modifying any part of the clone has zero effect on the original.
+- Can be done manually or via Serialization
 
 ---

@@ -3,12 +3,13 @@
 ---
 
 # 1. Creational Design Patterns
- -  Singleton Pattern
- -  Prototype Pattern
+ - Singleton Pattern
+ - Prototype Pattern
+ - Factory Pattern (Simple) 
 
 ---
 
-## 📌 Singleton Pattern - Project Overview
+## 📌 Singleton Pattern
 The **Singleton Pattern** ensures that a class has **only one instance** throughout the entire lifecycle of the Java application and provides a global point of access to it.
 
 ### Core Principles
@@ -39,7 +40,7 @@ This implementation uses the `synchronized` keyword (or Double-Checked Locking) 
 
 ---
 
-## 📌 Prototype Pattern - Project Overview
+## 📌 Prototype Pattern
 The **Prototype Pattern** ensures **to create new objects by copying an existing instance (the prototype) rather than using the new keyword**. A **Prototype Registry** (the Map in your code) is the management layer of the Prototype Pattern. While the clone() method handles the copying, the Registry handles the organization and retrieval.
 
 ### Core Principles
@@ -55,3 +56,8 @@ The **Prototype Pattern** ensures **to create new objects by copying an existing
 - Can be done manually or via Serialization
 
 ---
+
+## 📌 Factory Pattern (Registry-based)
+The **Factory Pattern** ensures provides a central point (the "Factory") to return instances of different classes based on an input.
+
+

@@ -6,6 +6,8 @@
  - Singleton Pattern
  - Prototype Pattern
  - Factory Pattern (Simple) 
+ - Builder Pattern
+ - Abstract Factory Pattern
 
 ---
 
@@ -60,4 +62,14 @@ The **Prototype Pattern** ensures **to create new objects by copying an existing
 ## 📌 Factory Pattern (Registry-based)
 The **Factory Pattern** ensures provides a central point (the "Factory") to return instances of different classes based on an input.
 
+--
 
+## 📌 Builder Pattern
+The **Builder Pattern** allows to create object for complex structure.
+- Canonical/Tradational Builder Pattern
+- Method Chain or a varaition of tradationl Builder Pattern 
+
+--
+
+## 📌 Abstract Factory Pattern
+The **Abstract Factory Pattern** is a factory of factories. It creates a single interface for multiple factories. Each factory is responsible for a related group/family of products.

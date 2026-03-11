@@ -11,6 +11,11 @@
 
 ---
 
+# 2. Structural Design Patterns
+ - Proxy Pattern
+
+---
+
 ## 📌 Singleton Pattern
 The **Singleton Pattern** ensures that a class has **only one instance** throughout the entire lifecycle of the Java application and provides a global point of access to it.
 
@@ -73,3 +78,8 @@ The **Builder Pattern** allows to create object for complex structure.
 
 ## 📌 Abstract Factory Pattern
 The **Abstract Factory Pattern** is a factory of factories. It creates a single interface for multiple factories. Each factory is responsible for a related group/family of products.
+
+--
+
+## 📌 Proxy Pattern
+The **Proxy Pattern** is a way of saving real object in a variable without creating new object again and again.

@@ -13,6 +13,7 @@
 
 # 2. Structural Design Patterns
  - Proxy Pattern
+ - Decorator Pattern
 
 ---
 
@@ -83,3 +84,8 @@ The **Abstract Factory Pattern** is a factory of factories. It creates a single 
 
 ## 📌 Proxy Pattern
 The **Proxy Pattern** is a way of saving real object in a variable without creating new object again and again.
+
+--
+
+## 📌 Decorator Pattern
+The **Proxy Pattern** is dynamically add new behaviors or responsibilities to an object without changing its original code.The pattern relies on composition rather than inheritance. Instead of creating a massive tree of subclasses to cover every possible combination of features, you wrap your object in a decorator class that has the same interface.

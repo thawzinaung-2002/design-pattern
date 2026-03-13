@@ -14,6 +14,7 @@
 # 2. Structural Design Patterns
  - Proxy Pattern
  - Decorator Pattern
+ - Adapter Pattern
 
 ---
 
@@ -89,3 +90,8 @@ The **Proxy Pattern** is a way of saving real object in a variable without creat
 
 ## 📌 Decorator Pattern
 The **Proxy Pattern** is dynamically add new behaviors or responsibilities to an object without changing its original code.The pattern relies on composition rather than inheritance. Instead of creating a massive tree of subclasses to cover every possible combination of features, you wrap your object in a decorator class that has the same interface.
+
+--
+
+## 📌 Adapter Pattern
+The **Adapter Pattern** is primarily about compatibility, not necessarily adding "new" features to the logic. However, it follows the Open/Closed Principle, which means you can make the system support new things without changing the old code.

@@ -1,4 +1,4 @@
-package adapter;
+package structural.adapter;
 
 import java.util.Collections;
 import java.util.List;

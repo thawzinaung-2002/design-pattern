@@ -15,6 +15,7 @@
  - Proxy Pattern
  - Decorator Pattern
  - Adapter Pattern
+ - Facade Pattern
 
 ---
 
@@ -95,3 +96,8 @@ The **Proxy Pattern** is dynamically add new behaviors or responsibilities to an
 
 ## 📌 Adapter Pattern
 The **Adapter Pattern** is primarily about compatibility, not necessarily adding "new" features to the logic. However, it follows the Open/Closed Principle, which means you can make the system support new things without changing the old code.
+
+--
+
+## 📌 Facade Pattern
+The **Facade Pattern** is controlling multiple subsystems to create a service.

@@ -16,6 +16,7 @@
  - Decorator Pattern
  - Adapter Pattern
  - Facade Pattern
+ - Bridge Pattern
 
 ---
 
@@ -101,3 +102,8 @@ The **Adapter Pattern** is primarily about compatibility, not necessarily adding
 
 ## 📌 Facade Pattern
 The **Facade Pattern** is controlling multiple subsystems to create a service.
+
+--
+
+## 📌 Bridge Pattern
+The **Bridge Pattern** is used to split a large class, or a set of closely related classes, into two separate hierarchies—Abstraction and Implementation—which can be developed independently of each other.

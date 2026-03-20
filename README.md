@@ -17,6 +17,13 @@
  - Adapter Pattern
  - Facade Pattern
  - Bridge Pattern
+ - Flyweight Pattern
+ - Composite Pattern
+
+---
+
+# 3. Behavior Design Patterns
+ - Strategy Pattern
 
 ---
 
@@ -107,3 +114,18 @@ The **Facade Pattern** is controlling multiple subsystems to create a service.
 
 ## 📌 Bridge Pattern
 The **Bridge Pattern** is used to split a large class, or a set of closely related classes, into two separate hierarchies—Abstraction and Implementation—which can be developed independently of each other.
+
+--
+
+## 📌 Flyweight Pattern
+The **Flyweight Pattern** is used to manage object creation for saving memory as internal(constant) and external(varies).
+
+--
+
+## 📌 Composite Pattern
+The **Composite Pattern** is used to treat individual objects and composition of objects uniformly for recursive nature.
+
+--
+
+## 📌 Strategy Pattern
+The **Strategy Pattern** is used to manage different algorithms for a task.

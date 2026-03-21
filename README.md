@@ -24,6 +24,7 @@
 
 # 3. Behavior Design Patterns
  - Strategy Pattern
+ - Command Pattern
 
 ---
 
@@ -129,3 +130,8 @@ The **Composite Pattern** is used to treat individual objects and composition of
 
 ## 📌 Strategy Pattern
 The **Strategy Pattern** is used to manage different algorithms for a task.
+
+--
+
+## 📌 Command Pattern
+The **Command Pattern** is used to encapsulate a method call into an object.

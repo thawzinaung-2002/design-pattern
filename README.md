@@ -25,6 +25,7 @@
 # 3. Behavior Design Patterns
  - Strategy Pattern
  - Command Pattern
+ - Template Pattern
 
 ---
 
@@ -135,3 +136,8 @@ The **Strategy Pattern** is used to manage different algorithms for a task.
 
 ## 📌 Command Pattern
 The **Command Pattern** is used to encapsulate a method call into an object.
+
+--
+
+## 📌 Template Pattern
+The **Template Pattern** is creating a skeleton of an algorithm in a class, deferring some steps to subclasses. It allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.

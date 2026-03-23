@@ -26,6 +26,7 @@
  - Strategy Pattern
  - Command Pattern
  - Template Pattern
+ - Iterator Pattern
 
 ---
 
@@ -141,3 +142,8 @@ The **Command Pattern** is used to encapsulate a method call into an object.
 
 ## 📌 Template Pattern
 The **Template Pattern** is creating a skeleton of an algorithm in a class, deferring some steps to subclasses. It allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.
+
+--
+
+## 📌 Iterator Pattern
+The **Iterator Pattern** is creating a way to access the elements of an aggregate object sequentially without exposing its underlying representation. It provides a standard way to traverse a collection, regardless of its specific implementation (e.g., List, Set, Map).

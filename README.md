@@ -27,6 +27,7 @@
  - Command Pattern
  - Template Pattern
  - Iterator Pattern
+ - Chain of Responsibility
 
 ---
 
@@ -147,3 +148,8 @@ The **Template Pattern** is creating a skeleton of an algorithm in a class, defe
 
 ## 📌 Iterator Pattern
 The **Iterator Pattern** is creating a way to access the elements of an aggregate object sequentially without exposing its underlying representation. It provides a standard way to traverse a collection, regardless of its specific implementation (e.g., List, Set, Map).
+
+--
+
+## 📌 Chain of Responsibility Pattern
+The **Chain of Responsibility** is to pass requests along a chain of handlers to proceed next handler.

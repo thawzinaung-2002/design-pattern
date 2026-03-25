@@ -28,6 +28,7 @@
  - Template Pattern
  - Iterator Pattern
  - Chain of Responsibility
+ - Visitor Pattern
 
 ---
 
@@ -153,3 +154,9 @@ The **Iterator Pattern** is creating a way to access the elements of an aggregat
 
 ## 📌 Chain of Responsibility Pattern
 The **Chain of Responsibility** is to pass requests along a chain of handlers to proceed next handler.
+
+--
+
+## 📌 Visitor Pattern
+The **Visitor Pattern** is to add new functionality to a group of similar classes without actually modifying the code of those classes.
+

@@ -29,6 +29,7 @@
  - Iterator Pattern
  - Chain of Responsibility
  - Visitor Pattern
+ - State Pattern
 
 ---
 
@@ -159,4 +160,9 @@ The **Chain of Responsibility** is to pass requests along a chain of handlers to
 
 ## 📌 Visitor Pattern
 The **Visitor Pattern** is to add new functionality to a group of similar classes without actually modifying the code of those classes.
+
+--
+
+## 📌 State Pattern
+The **State Pattern** allows an object to change its behavior when its internal state changes.
 

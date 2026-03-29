@@ -30,6 +30,7 @@
  - Chain of Responsibility
  - Visitor Pattern
  - State Pattern
+ - Observer Pattern
 
 ---
 
@@ -166,3 +167,7 @@ The **Visitor Pattern** is to add new functionality to a group of similar classe
 ## 📌 State Pattern
 The **State Pattern** allows an object to change its behavior when its internal state changes.
 
+--
+
+## 📌 Observer Pattern
+The **Observer Pattern** that establishes a "one-to-many" relationship between objects. When one object (the Subject) changes its state, all its dependents (Observers) are notified and updated automatically.
